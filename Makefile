@@ -1,10 +1,10 @@
 all: push
 
 # 0.0 shouldn't clobber any release builds, current "latest" is 0.17
-TAG = 0.17
-PREFIX = aledbf/kube-keepalived-vip
+TAG = v0.0.1
+PREFIX = walteraa/kube-keepalived-vip
 BUILD_IMAGE = build-keepalived
-PKG = github.com/aledbf/kube-keepalived-vip
+PKG = k8s.io/kube-keepalived-vip
 
 controller: clean
 	CGO_ENABLED=0 GOOS=linux go build -a -installsuffix cgo -ldflags '-s -w' \

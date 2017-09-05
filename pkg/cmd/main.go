@@ -33,7 +33,7 @@ import (
 	"k8s.io/kubernetes/pkg/util/sysctl"
 	k8sexec "k8s.io/utils/exec"
 
-	"github.com/aledbf/kube-keepalived-vip/pkg/controller"
+	"k8s.io/kube-keepalived-vip/pkg/controller"
 )
 
 var (

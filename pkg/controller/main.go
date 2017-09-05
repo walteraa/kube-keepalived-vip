@@ -31,9 +31,9 @@ import (
 
 	"github.com/golang/glog"
 
-	"github.com/aledbf/kube-keepalived-vip/pkg/k8s"
-	"github.com/aledbf/kube-keepalived-vip/pkg/store"
-	"github.com/aledbf/kube-keepalived-vip/pkg/task"
+	"k8s.io/kube-keepalived-vip/pkg/k8s"
+	"k8s.io/kube-keepalived-vip/pkg/store"
+	"k8s.io/kube-keepalived-vip/pkg/task"
 
 	apiv1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
